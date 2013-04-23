@@ -6,16 +6,24 @@ body{
 #header{
 	position: top;
 	height: 150px;
-	min-width: 748px;
-	max-width: 908px;
+	min-width: 900px;
+	max-width: 900px;
     width: 100%;
-	margin: -5px auto 0px auto;
+	margin: -8px auto 0px auto;
 	background-color: #fff;
 	opacity: 0.7;
+	padding: 8px;
+}
+
+#headerImg{
+	position: absolute;
+	top: 50px;
+	margin-right: 50%;
+	margin-left: 50%;
 }
 
 #content{
-	min-width: 748px;
+	min-width: 900px;
 	max-width: 900px;
 	background-color: #fff;
 	opacity: 0.7;
